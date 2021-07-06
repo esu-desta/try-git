@@ -1,0 +1,47 @@
+--> GIT
+git init 
+git add index.html
+git add .
+git add -A
+git commit 'index.html added'
+git commet --amend -m "rename  the last commet"
+git log
+git log --oneline
+git show 869f581
+git diff
+git restore index.html
+
+git rm -r --cached .
+
+git checkout 869f581        changes branch to commit 869f581
+git revert  869f581         gives new commit by duplicating  869f581 commit to the first commit 
+git reset 869f581           this gives u a chance by not deleting in the text editor
+git reset 869f581 -- hard   this deletes all commits above 869f581 immediately
+
+git branch branchname       to make new branch called branchname
+git branch -a               to list all branchs
+git checkout branchname     to change branch to branchname
+git branch -d branchname    deletes branchname only if branchname is mergeed 
+git branch -D branchname    deletes branchname even branch is not mergeed
+
+git checkout -b branchname  creates branch called branchname and change the branch to branchname at the same time
+
+
+git push https://github.com/esu-desta/git-try.git branchname    
+git pull https://github.com/esu-desta/git-try.git branchname
+
+git remote add origin https://github.com/esu-desta/git-try.git
+git push origin branchname
+git pull origin branchname
+
+git clone https://github.com/esu-desta/git-try.git          origin will be set-up by default 
+
+git remote -v               to see the origin
+
+
+
+pip install -r requirements.txt
+
+.gitignore   // ex  https://www.toptal.com/developers/gitignore/api/django
+
+
